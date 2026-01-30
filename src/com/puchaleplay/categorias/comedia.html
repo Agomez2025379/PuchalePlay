@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Películas de Comedia</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f2f2f2; /* Fondo más formal y neutro */
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 34px;
+            margin-bottom: 40px;
+        }
+
+        .pelicula {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 750px;
+            border-radius: 12px;
+            border: 1px solid #ddd; /* Más profesional */
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1); /* Sombra suave */
+        }
+
+        .pelicula img {
+            width: 22%;
+            border-radius: 6px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .titulo {
+            color: #222;
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        p {
+            color: #444;
+            line-height: 1.5;
+        }
+
+        /* Limpiar el float de las imágenes */
+        .pelicula::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Películas de Comedia</h1>
+
+<div class="pelicula">
+    <img src="https://m.media-amazon.com/images/M/MV5BODFiMTEyY2MtOTVjOS00MTBkLWJmMWEtYjM0Njk5YjVmOGY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+    <h2 class="titulo">¿Dónde Están las Rubias?</h2>
+    <p><strong>Descripción:</strong> Dos agentes del FBI se hacen pasar por socialités para resolver un caso, causando situaciones arriesgadas y divertidas.</p>
+</div>
+
+<div class="pelicula">
+    <img src="https://m.media-amazon.com/images/M/MV5BMTI0NTA3MjI3NV5BMl5BanBnXkFtZTcwNTI1ODYzMQ@@._V1_FMjpg_UX1000_.jpg">
+    <h2 class="titulo">Pequeño Pero Peligroso</h2>
+    <p><strong>Descripción:</strong> Un ladrón se hace pasar por un bebé para recuperar un diamante, provocando desastre en la familia.</p>
+</div>
+
+<div class="pelicula">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.pUIqKxjysCFFT79IIsmM4QHaK9?rs=1&pid=ImgDetMain&o=7&rm=3">
+    <h2 class="titulo">Proyecto X</h2>
+    <p><strong>Descripción:</strong> Tres amigos organizan una fiesta para hacerse populares, pero la noche se vuelve un desastre bien de ahuevo.</p>
+</div>
+
+<div class="pelicula">
+    <img src="https://m.media-amazon.com/images/M/MV5BZTVhMWIxNWQtMDk5Ny00YzNlLTgxMGEtYjQ3MDNhNjg4Y2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+    <h2 class="titulo">Son Como Niños</h2>
+    <p><strong>Descripción:</strong> Un grupo de amigos se reúne tras muchos años y revive momentos divertidos llenos de nostalgia.</p>
+</div>
+
+</body>
+</html>
